@@ -1,5 +1,16 @@
 
 {
 	"name": "Artigo DIO",
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm"
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bookworm",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"xabikos.JavaScriptSnippets",
+				"Orta.vscode-jest",
+				"WallabyJs.quokka-vscode",
+				"redhat.vscode-yaml"
+			]
+		}
+	}
 }
